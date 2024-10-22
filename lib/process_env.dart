@@ -9,6 +9,8 @@ class ProcessEnv {
   static String get secrectKey => _loadString('SECRETE_KEY');
   static int get tokenExpiration => _loadInt('TOKEN_EXPIRATION');
   static int get refreshTokenExpiration => _loadInt('REFRESH_TOKEN_EXPIRATION');
+  static String get stripePublishableKey => _loadString('STRIPE_PUBLISHABLE_KEY');
+  static String get stripeScreKey => _loadString('STRIPE_SCRET_KEY');
 
   static int _loadInt(String key) {
     return int.parse(Platform.environment[key].toString());
