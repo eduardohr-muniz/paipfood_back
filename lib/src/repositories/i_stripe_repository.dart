@@ -23,7 +23,7 @@ class StripeFactoryCountry {
   });
   static Map<String, StripeFactoryCountry> countries = {
     'br': StripeFactoryCountry(baseUrlApp: 'https://paipfood.com', baseUrlPortal: 'https://portal.paipfood.com', currency: 'BRL'),
-    'uk': StripeFactoryCountry(baseUrlApp: 'https://paipfood.co.uk', baseUrlPortal: 'https://portal.paipfood.co.uk', currency: 'LBR'),
+    'uk': StripeFactoryCountry(baseUrlApp: 'https://paipfood.co.uk', baseUrlPortal: 'https://portal.paipfood.co.uk', currency: 'GBP'),
     'pt': StripeFactoryCountry(baseUrlApp: 'https://pt.paipfood.com', baseUrlPortal: 'https://pt.portal.paipfood.com', currency: 'EUR'),
   };
 
